@@ -1,0 +1,21 @@
+{
+    "name": "xueshandaxia/composer-demo",
+    "description": "A package to study composer",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "xueshandaxia\\ComposerDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xueshandaxia",
+            "email": "57831061@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
